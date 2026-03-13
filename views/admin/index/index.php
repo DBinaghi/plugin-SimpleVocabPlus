@@ -1,6 +1,6 @@
 <?php echo head(array('title' => 'Simple Vocabulary Plus')); ?>
 
-<script type="text/javascript" src="/omeka/admin/themes/default/javascripts/tabs.js?v=3.0.3" charset="utf-8"></script>
+<script type="text/javascript" src="<?php echo WEB_ROOT . '/admin/themes/default/javascripts/tabs.js?v=3.0.3' ?>" charset="utf-8"></script>
 
 <script type="text/javascript" charset="utf-8">
 	//<![CDATA[
@@ -334,3 +334,4 @@
 	</div>
 
 <?php echo foot(); ?>
+
